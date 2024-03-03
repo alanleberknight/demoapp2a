@@ -7,6 +7,8 @@ def read_data_from_file(filename):
 
 if __name__ == "__main__":
     filename = "data.txt"  # Change this to the actual file path
+   
+   
     data = read_data_from_file(filename)
     print(data)
 
